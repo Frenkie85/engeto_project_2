@@ -73,6 +73,7 @@ def hlavni_hra():
         print("Correct, you've guessed the right number")
         print("in", pokus, "guesses!")
         print(oddelovac)
+        quit()
     if bulls != 4:
         hlavni_hra()
 
